@@ -2,7 +2,7 @@
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
 
-import { Card, CardContent } from "./Card"
+import { Card } from "./Card"
 import {
     Carousel,
     CarouselContent,
@@ -65,7 +65,7 @@ const Carou = () => {
                                     <img src={item.image} alt="hello" className="object-cover rounded-t-3xl w-full h-full" />
                                 </div>
                                 <p className="text-center text-sm mt-[1px] p-4">
-                                    "{item.feedback}"
+                                    &quot;{item.feedback}&quot;
                                 </p>
                                 <p className="font-bold ml-4 text-sm">
                                     {item.reviewer}

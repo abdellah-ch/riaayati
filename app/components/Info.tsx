@@ -13,7 +13,7 @@ const Info = () => {
 
                 <div className="w-[50%] flex flex-col justify-center p-10 bg-[#faf7f7]">
                     <h1 className="text-4xl font-bold mb-4">
-                        Trouver tranquillité d'esprit avec des ressources de sécurité
+                        Trouver tranquillité d&apos;esprit avec des ressources de sécurité
                     </h1>
                     <p className="text-muted-foreground text-lg mb-6">
                         Notre engagement en matière de sécurité signifie que nous nous consacrons à vous et à votre sécurité.
@@ -26,7 +26,7 @@ const Info = () => {
                                 ✓
                             </span>
                             <p>
-                                Tous les soignants que vous pouvez embaucher font l'objet d'une vérification des antécédents.
+                                Tous les soignants que vous pouvez embaucher font l&apos;objet d&apos;une vérification des antécédents.
                             </p>
                         </li>
                         <li className="flex items-start space-x-4">
@@ -34,7 +34,7 @@ const Info = () => {
                                 ✓
                             </span>
                             <p>
-                                Rapports de vérification des antécédents supplémentaires disponibles à l'achat.
+                                Rapports de vérification des antécédents supplémentaires disponibles à l&apos;achat.
                             </p>
                         </li>
                         <li className="flex items-start space-x-4">
@@ -50,7 +50,7 @@ const Info = () => {
                                 ✓
                             </span>
                             <p>
-                                Apprenez-en davantage avec des dizaines d'articles et de ressources dans notre <a href="#" className="text-blue-600 underline">centre de confiance et de sécurité</a>.
+                                Apprenez-en davantage avec des dizaines d&apos;articles et de ressources dans notre <a href="#" className="text-blue-600 underline">centre de confiance et de sécurité</a>.
                             </p>
                         </li>
                     </ul>
