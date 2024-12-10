@@ -31,29 +31,28 @@ const Banner = () => {
                                 <FaStar className="text-[#61CE70] text-sm" />
                             </div>
                             <h3 className="text-sm uppercase tracking-wide text-gray-500 mb-4">
-                                Raise your voice to win
+                                Aidons-les ensemble
                             </h3>
                         </div>
 
                         <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-                            Seniors Deserve
+                            Relier les familles
 
                         </h1>
                         <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-                            <span className="text-green-400">Better Life</span>
+                            <span className="text-green-400">Avec Des</span>
                         </h1>
                         <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-                            Taking Care
-                            Relatives
+                            soignants locaux de qualité
                             <FaStar className="inline-block ml-2 text-green-400 animate-rotate" />
                         </h1>
                         <p className="text-gray-300 mt-4 text-lg">
-                            We collaborate, we think, we create outside the box.
+                            Nous collaborons, innovons et créons des solutions adaptées à vos besoins.
                         </p>
                         <button
                             className="mt-6 block px-7 py-3 bg-green-400 text-black font-bold rounded shadow hover:bg-green-500 transition w-fit"
                         >
-                            Learn More
+                            En savoir plus
                         </button>
                     </div>
                 </div>
