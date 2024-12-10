@@ -3,7 +3,7 @@ import Link from "next/link"
 const Location = () => {
     return (
         <div className="max-w-[1000px] mx-auto text-center p-6 mt-4">
-            <h1 className="text-4xl font-bold text-primary">
+            <h1 className="text-4xl font-bold text-primary italic text-[#07272d]">
                 Trouvez des Services de Soins à Domicile de Qualité
             </h1>
             {/* <p className="text-muted-foreground my-4">
