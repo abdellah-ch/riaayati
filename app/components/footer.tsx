@@ -1,13 +1,12 @@
-import Image from "next/image"
 import Link from "next/link"
 
 const Footer = () => {
     return (
-        <div className="p-2 mb-2">
-            <div className="sm:flex sm:items-center sm:justify-between ">
-                <Link href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+        <div className="p-2 mb-2 mt-20">
+            <div className="sm:flex sm:items-center sm:justify-center ">
+                {/* <Link href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <Image src="/images/logo1.svg" className="ml-2 mt-2" alt="Logo Riaayatik" width={150} height={100} />
-                </Link>
+                </Link> */}
                 <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
                     <li>
                         <a href="#" className="hover:underline me-4 md:me-6">À propos</a>

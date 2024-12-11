@@ -3,7 +3,7 @@ import Link from "next/link"
 const Location = () => {
     return (
         <div className="max-w-[1000px] mx-auto text-center p-6 mt-4">
-            <h1 className="text-4xl font-bold text-primary italic text-[#07272d]">
+            <h1 className="text-4xl font-bold text-primary italic text-[#07272d]  relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#4CAF63] after:mt-6 after:mx-auto">
                 Trouvez des Services de Soins à Domicile de Qualité
             </h1>
             {/* <p className="text-muted-foreground my-4">
@@ -17,13 +17,13 @@ const Location = () => {
                 />
                 <Link
                     href="/vertical"
-                    className="bg-[#61CE70] text-black hover:bg-[#4CAF63] rounded-r-md p-2 focus:outline-none focus:border-none px-6 font-bold">
-                    Rechercher
+                    className="bg-[#61CE70] text-[#07272d] hover:bg-[#4CAF63] rounded-r-md p-2 focus:outline-none focus:border-none px-6 font-bold">
+                    <p>Rechercher</p>
                 </Link>
             </div>
 
 
-            <div className="w-full h-96 mt-10">
+            {/* <div className="w-full h-96 mt-10">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.293600744869!2d-8.508712724847138!3d33.25451327630333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda92a8f21e82f47%3A0x443dc56ebc0115da!2sEl%20Jadida%2C%20Maroc!5e0!3m2!1sfr!2sma!4v1697034160981!5m2!1sfr!2sma"
                     width="100%"
@@ -32,7 +32,7 @@ const Location = () => {
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
-            </div>
+            </div> */}
 
 
 

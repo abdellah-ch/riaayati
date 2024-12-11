@@ -10,6 +10,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "./carousel"
+import { FaShieldAlt, FaStar } from 'react-icons/fa';
 
 const Carou = () => {
     const plugin = React.useRef(
@@ -23,7 +24,7 @@ const Carou = () => {
             reviews: 14,
             image: "/images/test1.jpg",
             feedback:
-                " ساعدات والدي الكبير فالعمر باش يبقى مرتاح وتعلمو أشياء جديدة يوميا. خدماتها كانت ممتازة بزاف.",
+                "ساعد والدي الكبير فالعمر باش يبقى مرتاح. خدمتو كانت ممتازة بزاف.",
             reviewer: "Khadija R.",
         },
         {
@@ -60,9 +61,21 @@ const Carou = () => {
                 {testimonials.map((item, index) => (
                     <CarouselItem key={index}>
                         <div className="p-1">
-                            <Card className="rounded-3xl relative w-full h-[300px]">
-                                <div className=" w-full h-[60%]">
+                            <Card className="rounded-3xl relative w-full h-[350px]">
+                                <div className="relative w-full h-[60%]">
                                     <img src={item.image} alt="hello" className="object-cover rounded-t-3xl w-full h-full" />
+                                    <div className="absolute right-4 bottom-2 bg-white rounded-lg shadow-lg  text-center w-auto py-2 px-7">
+                                        <h2 className="flex justify-center items-center gap-2 text-lg font-semibold">
+                                            {item.name} <FaShieldAlt className="text-blue-500" />
+                                        </h2>
+                                        <p className="text-gray-500 text-sm">{item.location}</p>
+                                        <div className="flex justify-center items-center gap-1 mt-2">
+                                            {[...Array(5)].map((_, index) => (
+                                                <FaStar key={index} className="text-yellow-400" />
+                                            ))}
+                                            <span className="text-gray-500 text-sm">({item.reviews})</span>
+                                        </div>
+                                    </div>
                                 </div>
                                 <p className="text-center text-sm mt-[1px] p-4">
                                     &quot;{item.feedback}&quot;

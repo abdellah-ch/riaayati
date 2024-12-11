@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+    font-family: 'Chronicle';
+    src: url('/fonts/chronicle-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chronicle1';
+    src: url('/fonts/Chronicle-Display-Roman.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'Chronicle', serif;
+    font-size: 2rem;
+}
+p {
+    font-family: 'Georgia', serif;
+}
+
+.alo{
+    font-family: 'Chronicle', serif;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
