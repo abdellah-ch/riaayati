@@ -2,6 +2,7 @@
 import Image from "next/image"
 import Nav from "./nav"
 import { FaStar } from "react-icons/fa"
+import Link from "next/link"
 
 const Banner = () => {
     return (
@@ -52,7 +53,7 @@ const Banner = () => {
                         <button
                             className="mt-6 block px-7 py-3 bg-green-400 text-black font-bold rounded shadow hover:bg-green-500 transition w-fit"
                         >
-                            En savoir plus
+                            <Link className="w-full h-full" href="/postuler"> Postuler à des emplois</Link>
                         </button>
                     </div>
                 </div>

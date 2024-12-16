@@ -1,27 +1,25 @@
 "use client"
-import Image from 'next/image';
-import { useRouter } from 'next/navigation';
 import React from 'react';
+import Navsec from '../components/navsec';
 
 const Profile = () => {
 
-    const router = useRouter()
     return (
         <>
-            <nav className="hidden md:flex items-center justify-between p-4 bg-white dark:bg-zinc-800">
-                <button className="text-primary" onClick={() => router.push('/')}>
-                    <Image width={150} height={70} alt="logo" src="/images/logo1.svg" />
-                </button>
-
-            </nav>
-            <section className="p-6 bg-background rounded-lg shadow-md max-w-[700px] mx-auto mt-10">
+            <Navsec />
+            <section className="p-6 bg-background rounded-lg shadow-md max-w-[700px] mx-auto mt-10 mb-10">
                 <h2 className="text-2xl font-semibold text-foreground mb-4">Profil de عبدالله</h2>
                 <div className="flex items-center space-x-4">
                     <img className="w-32 h-32 rounded-full" src="/images/firmiere1.jpg" alt="عبدالله" />
-                    <div>
-                        <p className="text-xl font-bold">عبدالله ن.</p>
-                        <p className="text-muted-foreground">Aide-soignant senior à El Jadida</p>
-                        <p className="mt-2 text-yellow-500">⭐⭐⭐⭐⭐</p>
+                    <div className='flex justify-between w-full'>
+                        <div>
+                            <p className="text-xl font-bold">عبدالله.</p>
+                            <p className="text-muted-foreground">Aide-soignant senior à El Jadida</p>
+                            <p className="mt-2 text-yellow-500">⭐⭐⭐⭐⭐</p>
+                        </div>
+                        <button className='mb-10 px-7 py-3 bg-green-400 text-black font-bold rounded shadow hover:bg-green-500 transition w-fit'>
+                            Contacter
+                        </button>
                     </div>
                 </div>
                 <div className="mt-6">
