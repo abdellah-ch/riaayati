@@ -1,6 +1,6 @@
 "use client"
 
-import Navsec from "../components/navsec"
+import Navsec from "../components/Navsec"
 
 const page = () => {
     return (

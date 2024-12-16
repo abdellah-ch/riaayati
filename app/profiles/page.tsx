@@ -62,7 +62,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FaStar, FaRegStar } from 'react-icons/fa';
 import { FaLightbulb } from "react-icons/fa";
-import Navsec from '../components/navsec';
+import Navsec from '../components/Navsec';
 
 const Page = () => {
 

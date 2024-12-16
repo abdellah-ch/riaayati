@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import Navsec from '../components/navsec';
+import Navsec from '../components/Navsec';
 
 const Profile = () => {
 
