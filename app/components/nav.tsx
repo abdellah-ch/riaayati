@@ -5,6 +5,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import { IoMdMore } from "react-icons/io";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const Nav = () => {
 
@@ -52,11 +53,13 @@ const Nav = () => {
                 </button>
                 {!isVertical && (
                     <div className="flex space-x-6 items-center">
-                        <a href="#" className="text-white cursor-pointer">
+                        <a href="/auth" className="text-white cursor-pointer">
                             Se connecter
                         </a>
                         <button className="bg-[#61CE70] text-white px-8 py-[8px] rounded-lg hover:bg-[#61CE70]/80 cursor-pointer">
-                            Rejoignez maintenant
+                            <Link href="/auth">
+                                Rejoignez maintenant
+                            </Link>
                         </button>
                         <button className="text-white cursor-pointer ">
                             <IoMdMore className="text-2xl" />
